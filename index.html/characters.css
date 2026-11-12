@@ -1,0 +1,168 @@
+body {
+    background-color: rgba(32, 33, 36, 1);
+}
+
+.home-button {
+    position: absolute;
+    /* right: 225px; */
+    /* top: 15px; */
+    left: 0%;
+}
+
+.next-button {
+    position: absolute;
+    top: 84%;
+    left: 58%
+}
+
+.back-button {
+    position: absolute;
+    top: 84%;
+    left: 35%;
+}
+
+#shark {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#item {
+    position: relative;
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+#blackjack {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+#characters {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    
+}
+
+#loan-shark {
+    position: static;
+    width: 200px;
+    height: 270px;
+}
+
+#itemdealer {
+    position: static;
+    width: 200px;
+    height: 270px;
+}
+
+#blackjackdealer {
+    position: static;
+    width: 200px;
+    height: 270px;
+}
+
+#title-characters {
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    top: 5px;
+    right: 35%;
+    background-color: rgba(214, 179, 106, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+#title-shark {
+    position: static;
+    width: 175px;
+    height: 20px;
+    background-color: rgba(214, 179, 106, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 19px;
+    text-transform: capitalize;
+    border-radius: 25px;
+}
+
+#title-item {
+    position: static;
+    width: 175px;
+    height: 20px;
+    background-color: rgba(214, 179, 106, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 19px;
+    text-transform: capitalize;
+    border-radius: 25px;
+}
+
+#title-blackjack {
+    position: static;
+    width: 175px;
+    height: 20px;
+    background-color: rgba(214, 179, 106, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 19px;
+    text-transform: capitalize;
+    border-radius: 25px;
+}
+
+#box-shark {
+    position: static;
+    width: 175px;
+    height: 200px;
+    background-color: rgba(139, 30, 36, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#box-item {
+    position: static;
+    width: 175px;
+    height: 200px;
+    background-color: rgba(139, 30, 36, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+#box-blackJack {
+    position: static;
+    width: 175px;
+    height: 200px;
+    background-color: rgba(139, 30, 36, 1);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
